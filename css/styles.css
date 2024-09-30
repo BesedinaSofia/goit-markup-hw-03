@@ -175,7 +175,7 @@ ul {
   gap: 24px;
 }
 
-.description {
+.description_ {
   width: calc((100% - 72px) / 4);
 }
 
