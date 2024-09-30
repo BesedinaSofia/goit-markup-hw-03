@@ -175,8 +175,8 @@ ul {
   gap: 24px;
 }
 
-.description_ {
-  width: calc((100% - 72px) / 4);
+.description {
+   width calc((100% - 3 * 24px) / 4);
 }
 
 .description_class_name {
