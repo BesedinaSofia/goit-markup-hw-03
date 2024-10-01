@@ -307,11 +307,18 @@ img {
 
 .footer_last {
   padding: 100px 0;
+  background-color: #2e2f42;
+}
+
+.studio_name_footer {
+  color: #fff;
+  display: inline-block;
 }
 
 .link_logo {
   margin-bottom: 16px;
   display: inline-block;
+  color: #404bbf;
 }
 
 .footer_text {
