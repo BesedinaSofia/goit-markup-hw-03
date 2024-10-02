@@ -52,8 +52,13 @@ p {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.container_header {
   display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -282,6 +287,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+
   margin-bottom: 72px;
 }
 
@@ -338,9 +344,9 @@ img {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #404bbf;
   display: inline-block;
   margin-bottom: 16px;
-  color: #404bbf;
 }
 
 .footer_text {
