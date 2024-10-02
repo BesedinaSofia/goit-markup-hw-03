@@ -175,7 +175,7 @@ ul {
   gap: 24px;
 }
 
-.description {
+.item {
   width: calc((100%-3 * 24px) / 4);
 }
 
@@ -205,7 +205,6 @@ p {
 img {
   object-fit: cover;
   display: block;
-  width: 264px;
 }
 
 .team {
@@ -227,11 +226,12 @@ img {
   color: #2e2f42;
   font-weight: 500;
   margin-bottom: 72px;
+  display: flex;
 }
 
 .team_page {
   background-color: #ffffff;
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
