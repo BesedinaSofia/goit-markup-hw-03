@@ -52,8 +52,10 @@ p {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container_header {
+.flex-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -146,6 +148,7 @@ p {
   color: #fff;
   font-family: "Roboto", sans-serif;
   max-width: 496px;
+  margin-left: 472px;
 }
 
 .button_class_name {
@@ -162,6 +165,8 @@ p {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-left: 636px;
+  margin-top: 48px;
 }
 
 .button_class_name:hover,
@@ -243,6 +248,7 @@ img {
   font-weight: 500;
   margin-bottom: 72px;
   display: flex;
+  margin-left: 480px;
 }
 
 .team-list .team_page {
